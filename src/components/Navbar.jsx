@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
         <div>
-            <h1>Kris Mally</h1>
+            <h1 className='text-[#217763] text-3xl font-black tracking-wide'>Kris Mally</h1>
         </div>
 
         {/* menu */}
