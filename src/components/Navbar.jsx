@@ -3,6 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
+import Logo from '../assets/logo.png'
 import Resume from '../assets/01-Kris-Mally.pdf'
 
 const Navbar = () => {
@@ -13,7 +14,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-10 bg-[#0a192f] text-gray-300'>
         <div>
-            <h1 className='text-[#217763] text-3xl font-black tracking-wide'>Kris Mally</h1>
+            <img className='ml-[-9px]' src={Logo} alt='Logo Image' style={{ width: '80px' }}/>
         </div>
 
         {/* menu */}
