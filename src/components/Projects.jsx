@@ -23,10 +23,10 @@ const Projects = () => {
                                 Django Application - Logr
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://logr-daily-symptom-tracker.herokuapp.com/">
+                                <a href="https://logr-daily-symptom-tracker.herokuapp.com/" target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/krismally/logr">
+                                <a href="https://github.com/krismally/logr" target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -43,10 +43,10 @@ const Projects = () => {
                                MERN Application - PomoTom
                            </span>
                            <div className='pt-8 text-center'>
-                               <a href="https://pomotom.com/">
+                               <a href="https://pomotom.com/" target='_blank'>
                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                </a>
-                               <a href="https://github.com/krismally/pomo-frontend">
+                               <a href="https://github.com/krismally/pomo-frontend" target='_blank'>
                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                </a>
                            </div>
@@ -63,10 +63,10 @@ const Projects = () => {
                               MEN Application - Logr Beta
                           </span>
                           <div className='pt-8 text-center'>
-                              <a href="https://logr-symptom-tracker.herokuapp.com/logr">
+                              <a href="https://logr-symptom-tracker.herokuapp.com/logr" target='_blank'>
                                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                               </a>
-                              <a href="https://github.com/krismally/symptom-tracker">
+                              <a href="https://github.com/krismally/symptom-tracker" target='_blank'>
                                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                               </a>
                           </div>
@@ -83,10 +83,10 @@ const Projects = () => {
                              jQuery Application - Marvel
                          </span>
                          <div className='pt-8 text-center'>
-                             <a href="https://www.marvelcharacterguide.com/">
+                             <a href="https://www.marvelcharacterguide.com/" target='_blank'>
                                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                              </a>
-                             <a href="https://github.com/krismally/guide-to-mcu">
+                             <a href="https://github.com/krismally/guide-to-mcu" target='_blank'>
                                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                              </a>
                          </div>
