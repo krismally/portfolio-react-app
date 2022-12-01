@@ -1,7 +1,7 @@
 
 const Skills = () => {
   return (
-    <div name='skills' className="w-full md:h-screen bg-[#0a192f] text-gray-300">
+    <div name='skills' className="w-full h-fit min-xl:h-screen bg-[#0a192f] text-gray-300">
     {/* Container */}
     <div className="max-w-[1000px] mx-auto p-4 px-10 flex flex-col justify-center w-full h-full">
         <div>
@@ -26,7 +26,7 @@ const Skills = () => {
                 <p className="my-4">React JS</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                <img alt="Express Icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" className="w-20 mx-auto"/>
+                <img alt="Express Icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" className="w-20 mx-auto fill-white"/>
                 <p className="my-4">Express JS</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -53,7 +53,7 @@ const Skills = () => {
     </div>
 
     </div>
-    
+
   )
 }
 

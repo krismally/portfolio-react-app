@@ -5,7 +5,7 @@ import Marvel from '../assets/marvel-character-guide.png'
 
 const Projects = () => {
   return (
-    <div name='projects' className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div name='projects' className="w-full h-fit min-xl:h-screen text-gray-300 bg-[#0a192f]">
         <div className="max-w-[1000px] mx-auto p-4 px-10 flex flex-col justify-center w-full h-full">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-[#217763] text-gray-300">Projects</p>
@@ -15,7 +15,7 @@ const Projects = () => {
             <div className="grid sm:grid-cols-2 gap-4">
                 <div style={{backgroundImage: `url(${Logr})`}}
                  className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
+
                 {/* Hover Effects */}
                 <div className='opacity-0 group-hover:opacity-100'>
                         <div>
@@ -35,7 +35,7 @@ const Projects = () => {
                 </div>
                 <div style={{backgroundImage: `url(${Pomotom})`}}
                 className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                   
+
                {/* Hover Effects */}
                <div className='opacity-0 group-hover:opacity-100'>
                        <div>
@@ -55,7 +55,7 @@ const Projects = () => {
                </div>
                <div style={{backgroundImage: `url(${LogrBeta})`}}
                className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                  
+
               {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
                       <div>
@@ -75,7 +75,7 @@ const Projects = () => {
               </div>
               <div style={{backgroundImage: `url(${Marvel})`}}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                 
+
              {/* Hover Effects */}
              <div className='opacity-0 group-hover:opacity-100'>
                      <div>
